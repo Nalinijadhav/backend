@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "name": "guests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "checkIn": {
+      "type": "datetime"
+    },
+    "checkout": {
+      "type": "datetime"
+    },
+    "room_no": {
+      "type": "integer"
+    }
+  }
+}

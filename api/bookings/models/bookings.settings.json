@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "Bookings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "room": {
+      "type": "string"
+    },
+    "booking_status": {
+      "type": "string"
+    }
+  }
+}

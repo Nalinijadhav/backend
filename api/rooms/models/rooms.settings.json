@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "name": "rooms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_no": {
+      "type": "integer"
+    },
+    "capacity": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
